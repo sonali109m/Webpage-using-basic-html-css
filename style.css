@@ -7,9 +7,13 @@ body{
     background-image: url(./images/bg.jpg);
     /* background-repeat: repeat-x; */
     font-family: "Elms Sans", sans-serif;
+    
+}
+header{
     font-weight: 600;
     font-size: medium;
     color: aliceblue;
+    position: sticky;
 }
 .navbar{
     background-color: gray;
@@ -67,6 +71,102 @@ nav .btn{
 .right>button:hover{
     background-color: rgb(88 87 96 / 0%)
 }
+.title{
+    text-align: center;
+    font-size:5em;
+    text-shadow:3px 2px black;
+}
 .container{
-    
+    display: flex;
+    /* background-color: aliceblue; */
+    color: black;
+    margin:50px 50px;
+}
+.firstbox{
+    background-color: aliceblue;
+    box-shadow: 2px 1px rgb(121, 117, 117);
+    border: 1px solid black;
+    border-radius: 5px;
+    margin:5px 5px;
+    padding: 20px;
+    width: 33%;
+    height: fit-content;
+    line-height: 20px;
+    text-align: center;
+}
+.boxheading{
+    margin-bottom: 10px;
+    padding: 5px 5px;
+}
+.boxpera{
+    text-align: justify;
+
+}
+.click{
+    background-color: black;
+    color:aliceblue ;
+    font-family: "Elms Sans", sans-serif;
+    font-weight: 600;
+    font-size: medium;
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 5px 20px;
+}
+.secondbox{
+    background-color: aliceblue;
+    box-shadow: 2px 1px rgb(121, 117, 117);
+    border: 1px solid black;
+    border-radius: 5px;
+    margin:5px 5px;
+    padding: 20px;
+    width: 33%;
+    height: fit-content;
+    line-height: 20px;
+    text-align: center;
+}
+.thirdbox{
+    background-color: aliceblue;
+    box-shadow: 2px 1px rgb(121, 117, 117);
+    border: 1px solid black;
+    border-radius: 5px;
+    margin:5px 5px;
+    padding: 20px;
+    width: 33%;
+    height: fit-content;
+    line-height: 20px;
+    text-align: center;
+}
+.fourthbox{
+    background-color: aliceblue;
+    box-shadow: 2px 1px rgb(121, 117, 117);
+    border: 1px solid black;
+    border-radius: 5px;
+    margin:5px 5px;
+    padding: 20px;
+    width: 33%;
+    height: fit-content;
+    line-height: 20px;
+    text-align: center;
+}.fifthbox{
+    background-color: aliceblue;
+    box-shadow: 2px 1px rgb(121, 117, 117);
+    border: 1px solid black;
+    border-radius: 5px;
+    margin:5px 5px;
+    padding: 20px;
+    width: 33%;
+    height: fit-content;
+    line-height: 20px;
+    text-align: center;
+}.sixthbox{
+    background-color: aliceblue;
+    box-shadow: 2px 1px rgb(121, 117, 117);
+    border: 1px solid black;
+    border-radius: 5px;
+    margin:5px 5px;
+    padding: 20px;
+    width: 33%;
+    height: fit-content;
+    line-height: 20px;
+    text-align: center;
 }
