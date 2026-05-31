@@ -43,7 +43,30 @@ body{
     padding: 25px;
     color: aliceblue;
 }
+.menu a:hover{
+    background-color: rgb(21, 21, 21);
+    border-radius: 150px;
+}
+.menu a:active{
+    text-decoration: underline;
+}
 .right{
     display: inline-block;
     margin-right: 20px;
+}
+nav .btn{
+    background-color: black;
+    color:aliceblue ;
+    font-family: "Elms Sans", sans-serif;
+    font-weight: 600;
+    font-size: medium;
+    margin-top: 5px;
+    border-radius: 20px;
+    padding: 10px 38px;
+}
+.right>button:hover{
+    background-color: rgb(88 87 96 / 0%)
+}
+.container{
+    
 }
